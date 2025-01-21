@@ -78,7 +78,7 @@
 }
 /* Shared styles */
 .main-site-fix {
-  /* width: 1160px; */
+  /* max-width: 1160px; */
   padding: 0px 141px;
 }
 #nav-page-active {
@@ -166,6 +166,161 @@ background: var(--Black, #111);
 .hero-image-area img{width: 100%;
 
 }
+/*  standard section part */
+
+.standard-section{
+  background-image: url("../assets/bg.png");
+  background-color:  lightgray 50% ;
+   max-width: 1160px;
+   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+padding-bottom: 80px;
+flex-direction: column;
+align-items: center;
+/* gap: 80px; */
+width: 100%;
+}
+.standard-heading{
+  margin-top: 60px;
+  margin-bottom: 80px ;
+}
+.standard-heading-title{
+  color: #000;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.5px; 
+}
+.standard-cards-1{
+  display: flex;
+  flex: 1; 
+padding: 52.819px 40.668px 53.762px 40.878px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32.069px;
+flex-shrink: 0;
+  border-radius: 18.864px;
+border: 0.943px solid #DEF5FF;
+background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+
+}
+.standard-cards-2{
+  display: flex;
+  flex: 1; 
+  padding: 52.819px 40.668px 53.762px 40.878px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32.069px;
+  flex-shrink: 0;
+  border-radius: 18.864px;
+border: 0.943px solid #FFF4DC;
+background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.standard-cards-3{
+  display: flex;
+  flex: 1; 
+  padding: 52.819px 40.668px 53.762px 40.878px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32.069px;
+  flex-shrink: 0;
+  border-radius: 18.864px;
+border: 0.943px solid #F2E8FF;
+background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.standard-cards{
+  gap: 28.29px;
+  /* margin-top: 80px; */
+  width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+
+
+
+
+.card-logo{
+  /* margin-top: 52.82px; */
+  width: 136.763px;
+height: 136.763px;
+flex-shrink: 0;
+}
+.card-title{
+  color: #202020;
+text-align: center;
+font-family: Quicksand;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 30.654px; /* 125% */
+}
+.card-text{
+  color: #808080;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.99rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.296px;
+}
+.card-button{
+  display: flex;
+  width: 102.921px;
+  height: 28.296px;
+  padding: 4.716px 23.269px 4.716px 0px;
+  align-items: center;
+  flex-shrink: 0;
+  color: #64C8FF;
+text-align: center;
+font-family: Quicksand;
+font-size: 0.99rem;
+font-style: normal;
+font-weight: 700;
+line-height: 28.296px; /* 187.5% */
+}
+
+/* BUTTON AERO SECTION */
+.standard-button{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+margin-bottom: 60px;
+gap: 20px;
+}
+
+.aero-button{
+  /* display: flex; */
+  width: 60px;
+  height: 60px;
+  padding: 17px 22.12px 19px 22.5px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-shrink: 0; */
+
+  border-radius: 100px;
+background: var(--Orange, #FEA301);
+}
+
+
+
+/* test debug */
+
+.standard-section{
+  /* border: 2px solid red; */
+}
+
 
 
 /************** Responsive parts ****************/
