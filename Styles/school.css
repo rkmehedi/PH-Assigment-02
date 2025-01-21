@@ -1,93 +1,146 @@
 /* Font setup */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 .quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  /* Navigation parts */
-  .nav-bar{
-    display: flex;
-    /* width: 1440px; */
-    width: 100%;
-    padding: 20px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  .nav-main-bar-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 186px;
-  }
-  .logo-title{
-    justify-content: center;
-    align-items: center;
-    gap: 11px;
-  }
-  .main-logo{
-    width: 62px;
-height: 62px;
-flex-shrink: 0;
-  }
-  .main-logo-text{
-    color: #111111 ;
-font-family: Quicksand;
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; 
-  }
-  .contact-button{
-    display: flex;
-    width: 197px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    border: none;
-background: #FEA301 ;
-    color: #FFF;
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 600;
-line-height: 30px;
-  }
-  .nav-page-titlename{
-    display: inline-flex;
-align-items: center;
-gap: 32px;
-  }
-  /* Shared styles */
-  .main-width{
-    width: 1160px;
-  }
-  #nav-page-active{
-    font-size: 1.25rem;
-font-style: normal;
-font-weight: 700;
-  }
-  .nav-page-name{
-font-size: 1.25rem;
-/* font-size: 20px; */
-font-style: normal;
-font-weight: 500;
-line-height: 30px;
-  }
-  .dp-flex{
-    display: flex;
-  }
-  /* colors */
-  .orange{ color: #FEA301;}
-  .skyblue{ color: #01ACFD; }
-  .akashi{color: #05D4DF; }
-  .beguni{color: #5D58EF ;}
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation parts */
+.nav-bar {
+  display: flex;
+  /* width: 1440px; */
+  width: 100%;
+  padding: 20px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-main-bar-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 186px;
+}
+.logo-title {
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+.main-logo {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+}
+.main-logo-text {
+  color: #111111;
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.contact-button {
+  display: flex;
+  width: 197px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: none;
+  background: #fea301;
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.nav-page-titlename {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+}
+/* Shared styles */
+.main-width {
+  width: 1160px;
+}
+#nav-page-active {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.nav-page-name {
+  font-size: 1.25rem;
+  /* font-size: 20px; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.dp-flex {
+  display: flex;
+}
+/* colors */
+.orange {
+  color: #fea301;
+}
+.skyblue {
+  color: #01acfd;
+}
+.akashi {
+  color: #05d4df;
+}
+.beguni {
+  color: #5d58ef;
+}
 
-  /* Hover parts */
-  .contact-button:hover{
-    background: green;
+/* Hover parts */
+.contact-button:hover {
+  background: green;
+}
+#mobile-nav {
+  display: none;
+}
+
+/************** Responsive parts ****************/
+
+/* Mobile responsive parts */
+
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
   }
+
+  /* Header section */
+  .nav-main-bar-div {
+    display: none;
+  }
+  #mobile-nav {
+    display: inline;
+  }
+  .main-logo-mobile {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    margin-left: 16px;
+  }
+  #mobilebutton {
+    margin-right: 16px;
+  }
+  .dp-flex-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    border: 0.5px solid #fea301;
+    /* width: 370px; */
+    width: 390px;
+    height: 70px;
+    flex-shrink: 0;
+  }
+}
