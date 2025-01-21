@@ -28,6 +28,7 @@
 }
 .mobile-color{
   display: flex;
+  /* justify-content: space-between; */
 }
 .nav-main-bar-div {
   display: flex;
@@ -113,7 +114,7 @@
 .contact-button:hover {
   background: green;
 }
-#mobile-nav {
+.mobile-nav {
   display: none;
 }
 
@@ -176,13 +177,29 @@ background: var(--Black, #111);
     margin: 0;
     padding: 0;
   }
+  .main-site-fix {
+    /* width: 1160px; */
+    padding: 0px;
+  }
 
   /* Header section */
   .nav-main-bar-div {
     display: none;
   }
-  #mobile-nav {
-    display: inline;
+  .mobile-color{
+    
+  }
+  .mobile-nav {
+
+    /* border: solid 2px rgb(236, 12, 180); */
+   
+    width: 100%;
+    /* max-width: 100%; */
+    /* width: 390px; */
+    
+    /* display: inline; */
+    display: flex;
+    justify-content: space-between;
   }
   .main-logo-mobile {
     width: 46px;
@@ -190,19 +207,90 @@ background: var(--Black, #111);
     flex-shrink: 0;
     margin-left: 16px;
   }
+  .mobile-fix-padding{
+    margin-left: 16px;
+    margin-right: 16px;
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
+  }
+  
+  
+  .hero-text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   #mobilebutton {
     margin-right: 16px;
   }
-  .nav-bar{padding: 0px 10px;}
+  .nav-bar{padding: 0px 10px;
+    /* border: solid 2px rgb(236, 12, 180); */
+  
+  }
 
   .dp-flex-mobile {
+    /* justify-content: center; */
+  align-items: center;
+  gap: 11px;
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
     border: 0.5px solid #fea301;
     /* width: 370px; */
-    width: 390px;
+    /* width: 390px; */
+    /* max-width: 100%; */
+    width: 100%;
     height: 70px;
     flex-shrink: 0;
+    /* gap: 11px; */
   }
+     /* Banner section parts */
+  .main-banner-section-div{
+    flex-direction: column-reverse;
+/* width: 357px; */
+/* width: 100%; */
+/* padding: 20px 0px; */
+padding: 20px 16px;
+/* flex-direction: column; */
+align-items: center;
+gap: 20px;
+  }
+
+  .hero-title{
+font-size: 2rem;
+text-align: center;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* margin-top: 20px; */
+
+}
+.hero-text{
+  color: var(--Black, #111);
+  font-size: .875rem;
+  margin: 18px 0px;
+  color: var(--Black, #111);
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.hero-button{
+  border-radius: 8px;
+background: var(--Black, #111);
+display: flex;
+padding: 6px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+font-family: Quicksand;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+}
+
 }
