@@ -114,6 +114,9 @@
 .contact-button:hover {
   background: green;
 }
+.aero-button:hover {
+  background-color: #5d58ef;
+}
 .mobile-nav {
   display: none;
 }
@@ -174,7 +177,7 @@ background: var(--Black, #111);
    max-width: 1160px;
    margin: 0 auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   display: flex;
 padding-bottom: 80px;
 flex-direction: column;
