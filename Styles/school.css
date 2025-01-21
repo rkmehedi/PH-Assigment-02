@@ -5,3 +5,89 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  /* Navigation parts */
+  .nav-bar{
+    display: flex;
+    /* width: 1440px; */
+    width: 100%;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-main-bar-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+  }
+  .logo-title{
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+  }
+  .main-logo{
+    width: 62px;
+height: 62px;
+flex-shrink: 0;
+  }
+  .main-logo-text{
+    color: #111111 ;
+font-family: Quicksand;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+  }
+  .contact-button{
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: none;
+background: #FEA301 ;
+    color: #FFF;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+  }
+  .nav-page-titlename{
+    display: inline-flex;
+align-items: center;
+gap: 32px;
+  }
+  /* Shared styles */
+  .main-width{
+    width: 1160px;
+  }
+  #nav-page-active{
+    font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+  }
+  .nav-page-name{
+font-size: 1.25rem;
+/* font-size: 20px; */
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+  }
+  .dp-flex{
+    display: flex;
+  }
+  /* colors */
+  .orange{ color: #FEA301;}
+  .skyblue{ color: #01ACFD; }
+  .akashi{color: #05D4DF; }
+  .beguni{color: #5D58EF ;}
+
+  /* Hover parts */
+  .contact-button:hover{
+    background: green;
+  }
