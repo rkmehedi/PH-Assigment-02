@@ -1,5 +1,6 @@
 /* Font setup */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -446,7 +447,114 @@ font-family: Quicksand;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 187.5% */
+line-height: 30px; 
 }
 
+/* standard section mobile */
+
+.standard-heading-title{
+  color: #000;
+text-align: center;
+font-family: Quicksand;
+font-size: 1.55rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.standard-heading{
+  margin-top: 40px;
+  margin-bottom: 20px ;
+}
+.standard-section{
+ 
+   /* max-width: 1160px; */
+   width: 390px;
+   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: top center ;
+  display: flex;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: center;
+}
+.dp-flex{
+  flex-direction: column;
+}
+.standard-cards-1{
+  display: flex;
+padding: 36px 28px;
+flex-direction: column;
+align-items: center;
+gap: 22px;
+align-self: stretch;
+  border-radius: 12.772px;
+  border: 0.639px solid #DEF5FF;
+  background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+  box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
+}
+.standard-cards-2{
+  display: flex;
+  padding: 36px 28px;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  align-self: stretch;
+  border-radius: 12.772px;
+border: 0.639px solid #FFF4DC;
+background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
+}
+.standard-cards-3{
+  display: flex;
+padding: 36px 28px;
+flex-direction: column;
+align-items: center;
+gap: 22px;
+align-self: stretch;
+border-radius: 12.772px;
+border: 0.639px solid #F2E8FF;
+background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+box-shadow: 0px 0px 19.158px 0.639px rgba(0, 0, 0, 0.05) inset;
+
+}
+.card-logo{
+  width: 92.595px;
+  height: 92.595px;
+}
+.card-title{
+  color: #202020;
+text-align: center;
+font-family: Quicksand;
+font-size: 1.02rem;
+font-style: normal;
+font-weight: 700;
+line-height: 20.754px;
+
+}
+.card-text{
+  color: #808080;
+text-align: center;
+font-family: Raleway;
+font-size: 10.217px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.158px; /* 187.5% */
+
+}
+.card-button{
+  display: flex;
+width: 53.929px;
+height: 12.772px;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: Quicksand;
+font-size: 0.6385625rem;
+font-style: normal;
+font-weight: 700;
+line-height: 19.158px;
+}
+.standard-button{
+  display: none;
+}
 }
