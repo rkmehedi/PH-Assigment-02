@@ -177,13 +177,13 @@ background: var(--Black, #111);
    max-width: 1160px;
    margin: 0 auto;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: top center ;
   display: flex;
 padding-bottom: 80px;
 flex-direction: column;
 align-items: center;
 /* gap: 80px; */
-width: 100%;
+/* width: 100%; */
 }
 .standard-heading{
   margin-top: 60px;
@@ -344,9 +344,7 @@ background: var(--Orange, #FEA301);
   .nav-main-bar-div {
     display: none;
   }
-  .mobile-color{
-    
-  }
+  
   .mobile-nav {
 
     /* border: solid 2px rgb(236, 12, 180); */
