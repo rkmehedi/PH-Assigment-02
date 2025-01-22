@@ -115,6 +115,12 @@
 .contact-button:hover {
   background: green;
 }
+.view-button:hover {
+  background: #fea301;
+}
+.hero-button:hover {
+  background: #fea301;
+}
 .aero-button:hover {
   background-color: #5d58ef;
 }
