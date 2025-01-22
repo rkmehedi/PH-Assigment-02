@@ -98,6 +98,13 @@
   display: flex;
 }
 /* colors */
+
+#color2{ color: #F0AA00 ;
+   
+}
+#color1{ color: #8700FF ;
+   
+}
 .orange {
   color: #fea301;
 }
