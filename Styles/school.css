@@ -1078,4 +1078,8 @@ margin-top: 65px;
     flex-direction: row;
     /* align-items: left; */
   }
+  .specialeffect{
+    width: 390px;
+   margin: 0 auto;
+  }
 }
