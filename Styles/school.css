@@ -1011,4 +1011,31 @@ margin-top: 65px;
     flex-direction: row;
     gap: 9px;
   }
+  /*  final footer */
+  .help-div-footer{
+    flex-direction: row;
+  }
+  .footer3-part{
+  
+    flex: 1;  
+    
+    /* flex-direction: column; */
+    flex-direction: row;
+  }
+  
+  .help-div-footer{
+    flex-direction: column;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    align-items: first baseline;
+    gap: 32px;
+  }
+  
+  .social-links{
+    gap: 10.15px ;
+    flex-direction: row;
+    /* align-items: left; */
+  }
 }
