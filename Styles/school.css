@@ -626,7 +626,7 @@ margin-bottom: 12px;
   /* border: 2px solid red; */
 }
 .footer3-part ,.footer2-part , .footer1-part{
-  border: 2px solid rgb(0, 255, 76);
+  /* border: 2px solid rgb(0, 255, 76); */
 }
 
 
@@ -993,5 +993,22 @@ background: #FFF;
     border-radius: 9.527px 9.527px 0px 0px;
     max-width: 100%;
   
+  }
+
+  /* footer section mobile */
+  .footer-section-main-div{
+    width: 390px;
+   margin: 0 auto;
+  display: flex;
+padding-bottom: 0px;
+margin-left: 21px;
+flex-direction: column;
+align-items: left;
+gap: 32px;
+margin-top: 65px;
+  }
+  .logo-and-title{
+    flex-direction: row;
+    gap: 9px;
   }
 }
